@@ -1,27 +1,17 @@
 import React from 'react'
+import Hero from './Components/Home/Hero/Hero'
 
 const HomePage = () => {
   return (
-    <div className='h-[1000px]'>
-      <a>About</a>
-      <a>Contact</a>
-      <a>Secret</a>
-      <h1 className="text-5xl">
-        LONG TEXT <br/>
-        LONG TEXT <br/>
-        LONG TEXT <br/>
-        LONG TEXT <br/>
-        LONG TEXT <br/>
-        LONG TEXT <br/>
-        LONG TEXT <br/>
-        LONG TEXT <br/>
-        LONG TEXT <br/>
-        LONG TEXT <br/>
-        LONG TEXT <br/>
-        LONG TEXT <br/>
-        LONG TEXT <br/>
-        LONG TEXT <br/>
-        LONG TEXT <br/>
+    <div className='overflow-hidden'>
+      <Hero />
+      <h1 className="text-[50px]">
+        SPAM <br/>
+        SPAM <br/>
+        SPAM <br/>
+        SPAM <br/>
+        SPAM <br/>
+        SPAM <br/>
       </h1>
     </div>
   )

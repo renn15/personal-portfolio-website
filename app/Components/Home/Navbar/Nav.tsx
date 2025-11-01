@@ -27,8 +27,8 @@ const Nav = ({openNav}: Props) => {
 
     return (
         <div className={`transition-all ${
-            NavBG ? "opacity-15 hover:opacity-100":"fixed"
-        } duration-200 h-[12vh] z-[100] fixed w-full bg-lime-500 shadow-md `}>
+            NavBG ? "opacity-15 hover:opacity-100 shadow-md":"fixed"
+        } duration-200 h-[12vh] z-[100] fixed w-full bg-lime-500`}>
             <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
                 {/* Logo */}
                 <h1 className="text-xl md:text-2xl font-bold text-white hover:text-lime-200 transition-all duration-200 ">
