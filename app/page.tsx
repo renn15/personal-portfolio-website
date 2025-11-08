@@ -6,12 +6,6 @@ const HomePage = () => {
     <div className='overflow-hidden'>
       <Hero />
       <h1 className="text-[50px]">
-        SPAM <br/>
-        SPAM <br/>
-        SPAM <br/>
-        SPAM <br/>
-        SPAM <br/>
-        SPAM <br/>
       </h1>
     </div>
   )

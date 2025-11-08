@@ -12,10 +12,11 @@ const Hero = () => {
                 <p className="text-med sm:text-base md:text-xl">Nerdy Stuff and Such</p>
             </div>
             {/* Buttons */}
-            <div className="row-[3] lg:row-span-3 lg:col-[2] flex flex-col">
-                <a href="#" className="my-5 relative inline-flex items-center justify-center px-10 py-3 overflow-hidden font-medium translation-all bg-white rounded hover:bg-gray-200 group text-xl">Category 1</a>
-                <a href="#" className="my-5 relative inline-flex items-center justify-center px-10 py-3 overflow-hidden font-medium translation-all bg-white rounded hover:bg-gray-200 group text-xl">Category 2</a>
-                <a href="#" className="my-5 relative inline-flex items-center justify-center px-10 py-3 overflow-hidden font-medium translation-all bg-white rounded hover:bg-gray-200 group text-xl">Category 3</a>
+            <div className="row-[3] lg:row-span-3 lg:col-[2] h-[80%] flex flex-col justify-center border-solid gap-10">
+                <h1 className="text-white font-bold text-4xl">Projects</h1>
+                <a href="#" className="relative inline-flex items-center justify-center grow px-10 py-3 overflow-hidden font-medium translation-all bg-white rounded hover:bg-gray-200 group text-xl">Category 1</a>
+                <a href="#" className="relative inline-flex items-center justify-center grow px-10 py-3 overflow-hidden font-medium translation-all bg-white rounded hover:bg-gray-200 group text-xl">Category 2</a>
+                <a href="#" className="relative inline-flex items-center justify-center grow px-10 py-3 overflow-hidden font-medium translation-all bg-white rounded hover:bg-gray-200 group text-xl">Category 3</a>
             </div>
         </div>
     </div>
