@@ -20,3 +20,21 @@ export const NavLinks = [
         label:'Secret',
     }
 ];
+
+export const SectionNavLinks = [
+    {
+        id:1,
+        url:'#',
+        label:'Cat1',
+    }, 
+    {
+        id:2,
+        url:'#',
+        label:'Cat2',
+    }, 
+    {
+        id:3,
+        url:'#',
+        label:'Cat3',
+    }, 
+];
