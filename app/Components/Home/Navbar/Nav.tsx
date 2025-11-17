@@ -9,26 +9,8 @@ type Props = {
 }
 
 const Nav = ({openNav}: Props) => {
-
-    const [NavBG,setNavBG]=useState(false);
-
-    useEffect(()=>{
-        const handler = () => {
-            if (window.scrollY >= 90) setNavBG(true);
-            if (window.scrollY < 90) setNavBG(false);
-        };
-
-        window.addEventListener("scroll", handler);
-
-        return () => window.removeEventListener("scroll", handler);
-    }, [])
-
-    
-
     return (
-        <div className={`transition-all ${
-            NavBG ? "opacity-15 hover:opacity-100 shadow-md":"fixed"
-        } duration-200 h-[12vh] z-[100] fixed w-full bg-gray-500`}>
+        <div className="transition-all fixed duration-200 h-[12vh] z-[100] fixed w-full bg-gray-500">
             <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
                 {/* Logo */}
                 <h1 className="text-xl md:text-2xl font-bold text-white hover:text-lime-200 transition-all duration-200 ">
