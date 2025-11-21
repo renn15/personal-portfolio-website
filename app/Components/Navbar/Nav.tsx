@@ -1,6 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react'
-import { NavLinks } from '../../../Constant/constant'
+import { NavLinks } from '../constant'
 import { HiBars3BottomRight } from "react-icons/hi2";
 import Link from 'next/link'
 

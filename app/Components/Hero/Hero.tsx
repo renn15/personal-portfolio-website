@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { SectionNavLinks } from '../../../Constant/constant';
+import { ProjectsCategory } from '../constant';
 
 const Hero = () => {
   return (
@@ -16,10 +16,10 @@ const Hero = () => {
             {/* Buttons */}
             <div className="row-[3] lg:row-span-3 lg:col-[2] h-[80%] flex flex-col justify-center border-solid gap-10">
                 <h1 className="text-white font-bold text-4xl">Projects</h1>
-                {SectionNavLinks.map((link)=>{
+                {ProjectsCategory.map((category)=>{
                       return (
-                          <Link href={link.url} key={link.id} className="relative inline-flex items-center justify-center grow px-10 py-3 overflow-hidden font-medium translation-all bg-white rounded hover:bg-gray-200 group text-xl">
-                              <p>{link.label}</p>
+                          <Link href={category.url} key={category.id} className="relative inline-flex items-center justify-center grow px-10 py-3 overflow-hidden font-medium translation-all bg-white rounded hover:bg-gray-200 group text-xl">
+                              <p>{category.label}</p>
                           </Link>
                       );
                   })}

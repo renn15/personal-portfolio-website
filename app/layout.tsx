@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Rajdhani } from "next/font/google";
 import "./globals.css";
-import ResponsiveNav from "./Components/Home/Navbar/ResponsiveNav";
+import ResponsiveNav from "./Components/Navbar/ResponsiveNav";
 
 const font = Rajdhani({
   weight:['300', '400', '500', '600', '700'],

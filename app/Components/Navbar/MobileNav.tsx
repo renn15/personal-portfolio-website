@@ -1,6 +1,6 @@
 'use client';
 import React from 'react'
-import { NavLinks } from '../../../Constant/constant';
+import { NavLinks } from '../constant';
 import Link from 'next/link';
 import { CgClose } from 'react-icons/cg';
 
