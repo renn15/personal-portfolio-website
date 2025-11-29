@@ -5,8 +5,6 @@ const HomePage = () => {
   return (
     <div className='overflow-hidden'>
       <Hero />
-      <h1 className="text-[50px]">
-      </h1>
     </div>
   )
 }

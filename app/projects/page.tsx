@@ -12,7 +12,6 @@ return (
           {ProjectsCategory.map((projectCategory) => (
             <ProjectSection key={projectCategory.id} category={projectCategory} />
           ))}
-          <h1>SPAM</h1>
         </div>
     </div>
   )
