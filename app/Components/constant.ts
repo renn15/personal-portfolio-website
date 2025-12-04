@@ -73,38 +73,42 @@ export const ProjectsCategory = [
     }, 
 ];
 
+// add <a target="_blank" href="https://icons8.com/icon/2848/letter">Mail</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+// add <a target="_blank" href="https://icons8.com/icon/jShwZ2RCyPSO/phone">Phone</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+// find/make proper telephone icon
+
 export const AboutContent = [
     {
         id:1,
-        logo:'/',
+        logo:'/Icons/icons8-mail-100.png',
         label:'Email',
         data:'steven.darren.wijaya15@gmail.com',
         url:'/',
     }, 
     {
         id:2,
-        logo:'/',
+        logo:'/Icons/icons8-phone-100.png',
         label:'Phone',
         data:'+65 9084 1459',
         url:'/',
     }, 
     {
         id:3,
-        logo:'/',
+        logo:'/Icons/Instagram_Glyph_White.png',
         label:'Instagram',
         data:'@renn_limabelas',
         url:'/',
     }, 
     {
         id:4,
-        logo:'/',
+        logo:'/Icons/InBug-White.png',
         label:'LinkedIn',
         data:'Steven Darren Wijaya',
         url:'/',
     }, 
     {
         id:5,
-        logo:'/',
+        logo:'/Icons/github-mark-white.png',
         label:'GitHub',
         data:'renn15',
         url:'/',

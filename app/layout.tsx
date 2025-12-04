@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Rajdhani } from "next/font/google";
+import { Rajdhani, Special_Elite } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "./Components/Navbar/ResponsiveNav";
 
-const font = Rajdhani({
+const RajdhaniFont = Rajdhani({
   weight:['300', '400', '500', '600', '700'],
   subsets:['latin']
 })
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${font.className} antialiased`}
+        className={`${RajdhaniFont.className} antialiased`}
       >
         <ResponsiveNav/>
         {children}

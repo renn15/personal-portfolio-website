@@ -18,7 +18,7 @@ const Hero = () => {
                 <h1 className="text-white font-bold text-4xl">Projects</h1>
                 {ProjectsCategory.map((category)=>{
                       return (
-                          <Link href={category.url} key={category.id} className="relative inline-flex items-center justify-center grow px-10 py-3 overflow-hidden font-medium translation-all bg-white rounded hover:bg-gray-200 group text-xl">
+                          <Link href={category.url} key={category.id} className="relative inline-flex items-center justify-center grow px-10 py-3 overflow-hidden font-medium transition-all bg-white rounded hover:bg-gray-300 group text-xl">
                               <p>{category.label}</p>
                           </Link>
                       );
