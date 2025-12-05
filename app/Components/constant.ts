@@ -89,7 +89,7 @@ export const AboutContent = [
         id:2,
         logo:'/Icons/icons8-phone-100.png',
         label:'Phone',
-        data:'+65 9084 1459',
+        data:'XXXXXXXXXX',
         url:'/',
     }, 
     {
