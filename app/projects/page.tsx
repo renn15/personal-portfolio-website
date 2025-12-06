@@ -17,4 +17,8 @@ return (
   )
 }
 
+// <a href="https://www.flaticon.com/free-icons/www" title="www icons">Www icons created by Freepik - Flaticon</a>
+// <a href="https://www.flaticon.com/free-icons/chart" title="chart icons">Chart icons created by mynamepong - Flaticon</a>
+// <a href="https://www.flaticon.com/free-icons/formula" title="formula icons">Formula icons created by wanicon - Flaticon</a>
+
 export default Projects

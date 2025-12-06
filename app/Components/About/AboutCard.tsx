@@ -17,7 +17,7 @@ const AboutCard = (props: { content: any; }) => {
                 <div>{content.data}</div>
             </div>
         </div>
-        <div className="w-30 h-full border flex justify-center items-center hover:bg-gray-200 font-medium transition-all">
+        <div className="w-30 h-full border flex justify-center items-center hover:bg-blue-300 font-medium transition-all">
             CONTACT
         </div>
     </div>

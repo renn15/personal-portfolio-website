@@ -19,7 +19,7 @@ const AboutPortrait = () => {
     </div>
     <div className='bg-gray-900 w-full h-full absolute z-400'>
         <div className="w-full h-full absolute flex justify-center items-center">
-            <h1 className={`${subtitleFont.className} w-[90%] text-white text-2xl text-center`}>Graphic design is still my passion</h1>
+            <h1 className={`${subtitleFont.className} w-[90%] text-white text-4xl text-center`}>Graphic design is still my passion</h1>
         </div>
         <div>
             <p className='text-white text-sm absolute bottom-0'>Any feedback and complaints related to this web's design can be directed to the contacts beside {'\u2192'}</p>

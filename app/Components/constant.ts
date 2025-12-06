@@ -22,28 +22,18 @@ export const NavLinks = [
 ];
 
 export const ProjectsCategory = [
+     
     {
         id:1,
         url:'/projects/#project1',
-        label:'Math & Physics',
+        label:'Website Development',
+        icon:'/Icons/internet.png',
         content: [
             {
                 id:1,
-                title:"Mentoring",
+                title:"This very website",
                 image:"#",
-                desc:"lorem ipsum dolor sitamitamit"
-            },
-            {
-                id:2,
-                title:"Menang Lomba Itu",
-                image:"#",
-                desc:"lorem ipsum dolor sitamitamit"
-            },
-            {
-                id:3,
-                title:"Active Contributor to a Group",
-                image:"#",
-                desc:"lorem ipsum dolor sitamitamit"
+                desc:"Hi guys how is the website? Oh, not good? Then sent some feedbacks to my contacts on the about page right now!!"
             }
         ],
     }, 
@@ -51,23 +41,58 @@ export const ProjectsCategory = [
         id:2,
         url:'/projects/#project2',
         label:'Data Analysis & Simulations',
+        icon:'/Icons/analysis.png',
         content: [
             {
                 id:1,
-                title:"Falling ball gaming",
+                title:"Simple Gravity Simulation",
+                image:"#",
+                desc:"Bouncing ball simulation using Python."
+            },
+            {
+                id:2,
+                title:"EEE@MLDA Datathon 2025 Competition",
+                image:"#",
+                desc:"Machine learning competition regarding heart monitoring."
+            },
+            ,
+            {
+                id:3,
+                title:"IMPACT 4.0 Competition",
+                image:"#",
                 desc:"lorem ipsum dolor sitamitamit"
             }
         ],
-    }, 
+    },
     {
         id:3,
         url:'/projects/#project3',
-        label:'Website Development',
+        label:'Math & Physics',
+        icon:'/Icons/mathematics.png',
         content: [
             {
                 id:1,
-                title:"This very website",
-                desc:"lorem ipsum dolor sitamitamit"
+                title:"Mentoring",
+                image:"#",
+                desc:"Taught students to prepare for tests and competitions.",
+            },
+            {
+                id:2,
+                title:"OSN 2024 Physics Division",
+                image:"#",
+                desc:"You know about this already right."
+            },
+            {
+                id:3,
+                title:"Learning Group Contributor",
+                image:"#",
+                desc:"Admin and moderator of a physics learning Whatsapp group."
+            },
+            {
+                id:4,
+                title:"Various Desmos Projects",
+                image:"#",
+                desc:"Math and physics simulation using the online graphing calculator Desmos."
             }
         ],
     }, 

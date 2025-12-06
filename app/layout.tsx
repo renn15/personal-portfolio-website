@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Rajdhani, Special_Elite } from "next/font/google";
+import { Rajdhani } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "./Components/Navbar/ResponsiveNav";
 
